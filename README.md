@@ -16,8 +16,15 @@ To download [XAMPP](https://www.apachefriends.org/download.html)
  * PHPMailer (Version - 5.2 Stable)
  
 ## Installation
-To run the web applition start the services of the local server WAMP or XAMPP. Import the sql database into your MySQL for Server.
+ * To run the web applition start the services of the local server WAMP or XAMPP. Import the sql database into your MySQL for Server.
 Check the port number in the common.php and ensure that the port is free to listen.
+
+* Clone [PHPMailer](https://github.com/PHPMailer/PHPMailer/) to send emails using SMTP Protocol.
+```bash
+git clone https://github.com/PHPMailer/PHPMailer.git
+```
+
+
 
 ## Usage
 To see the webpage open Google Chrome browser and type 
